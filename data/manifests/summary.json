@@ -1,0 +1,45 @@
+{
+  "path_base": "project_root",
+  "label_vector_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "deduplication": "Train only; same patient and study and SHA-256; keep lexicographically first Dicom_id; verify labels match",
+  "splits": {
+    "train": {
+      "source_images": 30344,
+      "manifest_images": 30330,
+      "excluded_images": 14,
+      "studies": 18513,
+      "patients": 11055,
+      "has_labels": true
+    },
+    "valid": {
+      "source_images": 1422,
+      "manifest_images": 1422,
+      "excluded_images": 0,
+      "studies": 859,
+      "patients": 228,
+      "has_labels": true
+    },
+    "test": {
+      "source_images": 2218,
+      "manifest_images": 2218,
+      "excluded_images": 0,
+      "studies": 1414,
+      "patients": 136,
+      "has_labels": false
+    }
+  },
+  "excluded_total": 14,
+  "validation_merged_into_training": false,
+  "source_modified": false
+}

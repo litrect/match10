@@ -1,0 +1,29 @@
+{
+  "rule": "Class 10 (No Finding) co-occurring with any class 1-9 is flagged for review",
+  "splits": {
+    "train": {
+      "image_records": 30344,
+      "study_count": 18513,
+      "no_finding_studies": 6683,
+      "disease_studies": 11830,
+      "conflicting_image_records": 0,
+      "conflicting_studies": 0,
+      "inconsistent_study_labels": 0,
+      "invalid_label_rows": 0
+    },
+    "valid": {
+      "image_records": 1422,
+      "study_count": 859,
+      "no_finding_studies": 306,
+      "disease_studies": 553,
+      "conflicting_image_records": 0,
+      "conflicting_studies": 0,
+      "inconsistent_study_labels": 0,
+      "invalid_label_rows": 0
+    }
+  },
+  "total_conflict_studies": 0,
+  "total_invalid_label_rows": 0,
+  "test_split": "Not checked because test labels are not provided",
+  "source_data_modified": false
+}

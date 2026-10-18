@@ -1,0 +1,17 @@
+﻿split,images_per_study,study_count,percent
+train,1,8507,45.9515
+train,2,8369,45.2061
+train,3,1465,7.9134
+train,4,160,0.8643
+train,5,9,0.0486
+train,6,2,0.0108
+train,7,1,0.0054
+valid,1,391,45.518
+valid,2,380,44.2375
+valid,3,81,9.4296
+valid,4,7,0.8149
+test,1,775,54.8091
+test,2,496,35.0778
+test,3,122,8.628
+test,4,20,1.4144
+test,5,1,0.0707

@@ -46,3 +46,15 @@
 
 安装当前工具依赖：`python -m pip install -r requirements.txt`。
 运行全量完整性检查：`python scripts/data/check_image_integrity.py`。
+
+## 重复图像检查
+
+- 入口：`scripts/data/check_image_duplicates.py`，输出：`reports/image_duplicates/`。
+- SHA-256检查33984张图像，发现14组字节完全一致的图像，均在训练集内部；未发现跨训练、验证、测试集的完全相同文件。
+- 原始数据未修改；哈希不识别重编码、缩放或视觉相似的图像。
+
+## 训练数据清单
+
+- 生成入口：`scripts/data/build_manifests.py`，输出目录：`data/manifests/`。
+- train与valid包含10维标签；test不含标签列。图像路径相对于项目根目录。
+- 训练集在同次检查内去除14个字节相同副本，原始数据不变；验证集保持独立。

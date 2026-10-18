@@ -1,0 +1,94 @@
+{
+  "train": {
+    "images": 30344,
+    "studies": 18513,
+    "patients": 11055,
+    "images_per_study": {
+      "1": 8507,
+      "2": 8369,
+      "3": 1465,
+      "4": 160,
+      "5": 9,
+      "6": 2,
+      "7": 1
+    },
+    "view_image_counts": {
+      "AP": 12152,
+      "LATERAL": 6554,
+      "LL": 2831,
+      "(missing)": 1202,
+      "PA": 7604,
+      "PA LLD": 1
+    },
+    "patient_orientation_image_counts": {
+      "Erect": 23651,
+      "Recumbent": 3386,
+      "(missing)": 3307
+    },
+    "label_count_per_study": {
+      "1": 11597,
+      "2": 3659,
+      "3": 2197,
+      "4": 840,
+      "5": 185,
+      "6": 34,
+      "7": 1
+    },
+    "multi_label_studies": 6916
+  },
+  "valid": {
+    "images": 1422,
+    "studies": 859,
+    "patients": 228,
+    "images_per_study": {
+      "1": 391,
+      "2": 380,
+      "3": 81,
+      "4": 7
+    },
+    "view_image_counts": {
+      "AP": 584,
+      "LATERAL": 284,
+      "PA": 364,
+      "LL": 151,
+      "(missing)": 39
+    },
+    "patient_orientation_image_counts": {
+      "Erect": 1088,
+      "Recumbent": 199,
+      "(missing)": 135
+    },
+    "label_count_per_study": {
+      "1": 511,
+      "2": 170,
+      "3": 131,
+      "4": 39,
+      "5": 8
+    },
+    "multi_label_studies": 348
+  },
+  "test": {
+    "images": 2218,
+    "studies": 1414,
+    "patients": 136,
+    "images_per_study": {
+      "1": 775,
+      "2": 496,
+      "3": 122,
+      "4": 20,
+      "5": 1
+    },
+    "view_image_counts": {
+      "LL": 217,
+      "PA": 402,
+      "(missing)": 139,
+      "AP": 1090,
+      "LATERAL": 370
+    },
+    "patient_orientation_image_counts": {
+      "Recumbent": 262,
+      "(missing)": 369,
+      "Erect": 1587
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "method": "SHA-256 of complete file bytes",
+  "total_images": 33984,
+  "hashed_images": 33984,
+  "hash_errors": 0,
+  "unique_hashes": 33970,
+  "duplicate_groups": 14,
+  "images_in_duplicate_groups": 28,
+  "redundant_copies": 14,
+  "cross_split_duplicate_groups": 0,
+  "cross_split_pairs_group_counts": {},
+  "within_split_duplicate_groups": {
+    "train": 14
+  },
+  "elapsed_seconds": 96.1,
+  "scope_note": "Detects byte-identical files only, not re-encoded, resized, or visually similar images. No original files changed.",
+  "duplicate_metadata_analysis": {
+    "same_patient_groups": 14,
+    "same_study_groups": 14,
+    "consistent_label_groups": 14
+  }
+}
