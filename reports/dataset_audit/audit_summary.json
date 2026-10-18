@@ -1,0 +1,51 @@
+{
+  "train": {
+    "images": 30344,
+    "patients": 11055,
+    "studies": 18513,
+    "invalid_label_rows": 0,
+    "class_counts_per_study": {
+      "1": 622,
+      "2": 900,
+      "3": 942,
+      "4": 1436,
+      "5": 2404,
+      "6": 3885,
+      "7": 3968,
+      "8": 4508,
+      "9": 4654,
+      "10": 6683
+    }
+  },
+  "valid": {
+    "images": 1422,
+    "patients": 228,
+    "studies": 859,
+    "invalid_label_rows": 0,
+    "class_counts_per_study": {
+      "1": 24,
+      "2": 37,
+      "3": 46,
+      "4": 68,
+      "5": 115,
+      "6": 177,
+      "7": 193,
+      "8": 214,
+      "9": 260,
+      "10": 306
+    }
+  },
+  "test": {
+    "images": 2218,
+    "patients": 136,
+    "studies": 1414,
+    "invalid_label_rows": 0,
+    "class_counts_per_study": {}
+  },
+  "patient_overlap": {
+    "train_valid": 0,
+    "train_test": 0,
+    "valid_test": 0
+  },
+  "metadata_issues": []
+}

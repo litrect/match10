@@ -42,7 +42,7 @@
 
 ## GitHub共享范围
 
-仓库保存代码、配置和计划文档。原始数据、模型、提交文件、逐患者或逐图报告及中间文件仅保留本地，由.gitignore排除。首次克隆后，在项目根目录创建dataset目录并放入赛事数据，目录下应包含train、valid、test及对应CSV；再创建本地输出目录或运行检查脚本自动生成报告。
+仓库保存除原始数据和本机凭据等文件之外的全部项目材料，包括代码、配置、计划文档、检查报告、模型、提交文件和中间文件。原始数据及其压缩包由.gitignore排除。首次克隆后，在项目根目录创建dataset目录并放入赛事数据，目录下应包含train、valid、test及对应CSV；再创建本地输出目录或运行检查脚本自动生成报告。
 
 安装当前工具依赖：`python -m pip install -r requirements.txt`。
 运行全量完整性检查：`python scripts/data/check_image_integrity.py`。

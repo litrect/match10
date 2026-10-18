@@ -1,0 +1,61 @@
+{
+  "dataset_root": "C:\\Users\\31090\\Documents\\match10\\dataset",
+  "checks": [
+    "CSV image correspondence",
+    "missing and extra images",
+    "duplicate CSV records",
+    "nonempty files",
+    "Pillow verify and full decode with truncated images disallowed",
+    "actual dimensions versus CSV",
+    "JPEG or PNG format"
+  ],
+  "splits": {
+    "train": {
+      "csv_records": 30344,
+      "image_files": 30344,
+      "other_files": 0,
+      "checked": 30344,
+      "passed": 30344,
+      "failed": 0,
+      "formats": {
+        "JPEG": 30344
+      },
+      "modes": {
+        "L": 30344
+      }
+    },
+    "valid": {
+      "csv_records": 1422,
+      "image_files": 1422,
+      "other_files": 0,
+      "checked": 1422,
+      "passed": 1422,
+      "failed": 0,
+      "formats": {
+        "JPEG": 1422
+      },
+      "modes": {
+        "L": 1422
+      }
+    },
+    "test": {
+      "csv_records": 2218,
+      "image_files": 2218,
+      "other_files": 0,
+      "checked": 2218,
+      "passed": 2218,
+      "failed": 0,
+      "formats": {
+        "JPEG": 2218
+      },
+      "modes": {
+        "L": 2218
+      }
+    }
+  },
+  "total_images": 33984,
+  "issue_count": 0,
+  "issues_by_type": {},
+  "elapsed_seconds": 504.5,
+  "scope_note": "File integrity only; no medical label review or image-content duplication hashing."
+}

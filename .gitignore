@@ -1,15 +1,8 @@
-# Local competition data and generated patient/image reports
+# Original competition data and its archive
 /dataset/
 /cxr_first/
-/reports/
-/artifacts/
-/models/
-/submissions/
-*.zip
-*.pt
-*.pth
-*.ckpt
-*.onnx
+/cxr_first.zip
+/dataset.zip
 # Local environments and credentials
 .venv/
 venv/
