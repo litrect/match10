@@ -1,0 +1,81 @@
+{
+  "source": "用户提供的赛事类别标签说明截图",
+  "label_field": "Predict_class",
+  "label_separator": ";",
+  "class_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "vector_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "classes": [
+    {
+      "class_id": 1,
+      "name_zh": "纵隔心影增大",
+      "name_en": "Enlarged Cardiomediastinum"
+    },
+    {
+      "class_id": 2,
+      "name_zh": "气胸",
+      "name_en": "Pneumothorax"
+    },
+    {
+      "class_id": 3,
+      "name_zh": "肺部实变",
+      "name_en": "Consolidation"
+    },
+    {
+      "class_id": 4,
+      "name_zh": "肺炎",
+      "name_en": "Pneumonia"
+    },
+    {
+      "class_id": 5,
+      "name_zh": "肺水肿",
+      "name_en": "Edema"
+    },
+    {
+      "class_id": 6,
+      "name_zh": "心影扩大",
+      "name_en": "Cardiomegaly"
+    },
+    {
+      "class_id": 7,
+      "name_zh": "肺不张",
+      "name_en": "Atelectasis"
+    },
+    {
+      "class_id": 8,
+      "name_zh": "肺部阴影",
+      "name_en": "Lung Opacity"
+    },
+    {
+      "class_id": 9,
+      "name_zh": "胸腔积液",
+      "name_en": "Pleural Effusion"
+    },
+    {
+      "class_id": 10,
+      "name_zh": "无异常发现",
+      "name_en": "No Finding"
+    }
+  ]
+}

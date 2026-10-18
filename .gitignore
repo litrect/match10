@@ -1,0 +1,24 @@
+# Local competition data and generated patient/image reports
+/dataset/
+/cxr_first/
+/reports/
+/artifacts/
+/models/
+/submissions/
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.onnx
+# Local environments and credentials
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+{
+  "dataset_root": "dataset",
+  "class_mapping": "configs/class_mapping.json",
+  "reports_dir": "reports",
+  "models_dir": "models",
+  "submissions_dir": "submissions"
+}

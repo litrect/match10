@@ -1,0 +1,31 @@
+{
+  "updated_on": "2026-10-18",
+  "decision_source": "user_project_decision",
+  "official_approval_verified": false,
+  "pretrained_weights": {
+    "general_purpose_allowed": true,
+    "medical_allowed": true,
+    "record_source_and_version": true
+  },
+  "data_usage": {
+    "training_split": "train",
+    "validation_split": "valid",
+    "merge_validation_into_training": false,
+    "validation_usage": [
+      "hyperparameter_tuning",
+      "model_selection",
+      "evaluation",
+      "threshold_selection"
+    ]
+  },
+  "deferred_questions": {
+    "status": "out_of_current_scope",
+    "items": [
+      "test_set_self_supervision_or_pseudo_labels",
+      "model_ensemble_and_test_time_augmentation",
+      "latency_measurement_details",
+      "model_size_measurement_details"
+    ]
+  },
+  "note": "预训练权重许可依据用户项目设定，尚非组委会正式确认；其余待确认问题暂不纳入当前方案，不表示已经获准。允许预训练权重不等于允许额外导入外部标注数据。"
+}
