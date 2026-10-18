@@ -15,3 +15,7 @@ __pycache__/
 *.key
 .DS_Store
 Thumbs.db
+# Download caches and non-production smoke checkpoints
+/artifacts/torch_cache/
+/models/resnet18_smoke_v1/
+*.pid

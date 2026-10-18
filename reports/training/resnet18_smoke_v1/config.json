@@ -1,0 +1,37 @@
+{
+  "args": {
+    "smoke": true,
+    "epochs": 5,
+    "batch_size": 4,
+    "workers": 2,
+    "train_batches": 4,
+    "size": 320,
+    "lr": 0.0001,
+    "seed": 42,
+    "weights": "imagenet",
+    "run_name": "resnet18_smoke_v1"
+  },
+  "python_environment": "project .venv",
+  "torch": "2.10.0+cu128",
+  "torchvision": "0.25.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "pretrained_source": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+  "class_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "train_images": 16,
+  "validation_images": 1422,
+  "validation_used_for_training": false,
+  "aggregation": "mean image probabilities per Study_id",
+  "preprocess": "RGB; train rotation +/-5 degrees; aspect-preserving resize and black padding; ImageNet normalization",
+  "scope": "pipeline smoke test, not converged performance"
+}

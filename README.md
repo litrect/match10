@@ -58,3 +58,22 @@
 - 生成入口：`scripts/data/build_manifests.py`，输出目录：`data/manifests/`。
 - train与valid包含10维标签；test不含标签列。图像路径相对于项目根目录。
 - 训练集在同次检查内去除14个字节相同副本，原始数据不变；验证集保持独立。
+
+## 独立训练环境
+
+- 已建立`.venv`，Python 3.12.9，GPU版PyTorch 2.10.0与torchvision 0.25.0，CUDA 12.8。
+- PowerShell激活：`.\.venv\Scripts\Activate.ps1`；无需激活也可用`.\.venv\Scripts\python.exe`运行。
+- GPU验证入口：`scripts/environment/verify_gpu.py`；实际验证结果见`reports/environment/gpu_smoke_test.json`。
+- 环境说明见`docs/training_environment.md`；精确依赖见`requirements-training-lock.txt`。
+- `.venv`仅保留本地，不提交GitHub。
+
+## ResNet18基线
+
+- 入口：`python -m src.baseline --smoke`，需先使用项目`.venv`。
+- 真实数据流程测试已通过：16张训练图像、4次更新，完整验证集859次检查；模型保存加载预测一致。
+- 完整基线命令和预处理说明见`docs/baseline_training.md`。
+- 本次仅验证流程，尚未进行完整基线训练；初始测试指标不能代表训练完成的模型效果。
+
+## 协作者
+
+新成员请先阅读`docs/collaboration.md`，包含RTX4050 6GB环境搭建和启动命令。原始数据、虚拟环境、下载缓存与仅供流程测试的权重不随仓库分发。

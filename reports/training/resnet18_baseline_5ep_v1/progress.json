@@ -1,0 +1,11 @@
+{
+  "status": "stopped_by_user",
+  "epoch": 1,
+  "total_epochs": 5,
+  "step": 700,
+  "steps_per_epoch": 7583,
+  "train_loss_running": 0.36118102216294834,
+  "elapsed_seconds": 558.5,
+  "checkpoint_available": false,
+  "restart_note": "Stopped before first epoch completed; no recoverable model checkpoint. Restart requires a fresh run name."
+}

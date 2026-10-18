@@ -1,0 +1,29 @@
+{
+  "python": "3.12.9",
+  "executable": "C:\\Users\\31090\\Documents\\match10\\.venv\\Scripts\\python.exe",
+  "torch": "2.10.0+cu128",
+  "torchvision": "0.25.0+cu128",
+  "cuda_build": "12.8",
+  "cudnn": 91002,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_memory_bytes": 8585216000,
+  "cuda_available": true,
+  "smoke_test": "PASS",
+  "model": "resnet18 random initialization",
+  "batch_size": 2,
+  "input_shape": [
+    2,
+    3,
+    320,
+    320
+  ],
+  "output_shape": [
+    2,
+    10
+  ],
+  "loss": 0.7615596652030945,
+  "mixed_precision": true,
+  "peak_allocated_MiB": 235.6,
+  "seconds": 1.14,
+  "note": "One synthetic batch forward/backward only; not training quality or official T4 latency validation."
+}

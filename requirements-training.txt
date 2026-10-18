@@ -1,0 +1,7 @@
+-r requirements.txt
+numpy>=2,<3
+pandas>=2,<4
+scikit-learn>=1.5,<2
+timm>=1,<2
+PyYAML>=6,<7
+tqdm>=4,<5
